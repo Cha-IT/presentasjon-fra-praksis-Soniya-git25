@@ -1,12 +1,23 @@
 [![Review Assignment Due Date](https://classroom.github.com/assets/deadline-readme-button-22041afd0340ce965d47ae6ef1cefeee28c7c493a6346c4f15d667ab976d596c.svg)](https://classroom.github.com/a/Er6qtz3N)
-# Lage-presentasjon-i-Spectacle
+# Lage presentasjon i Spectacle ✅
 
-Du skal lage en presentasjon fra praksisperioden din. Til dette skal vi bruke react-rammeverket Spectacle
+Dette prosjektet viser hvordan du kan lage en presentasjon basert på praksisperioden din. Guiden her er ment som **veiledning** slik at du kan følge stegene selv og tilpasse innholdet.
 
-# Hvordan lage en presentasjon med Spectacle
+## Oppgave 🎯
+1. Opprett et nytt Spectacle‑prosjekt (se «Oppsett» under).
+2. Lag minst fem slides som beskriver:
+   * Introduksjon av deg selv
+   * Beskrivelse av arbeidsoppgaver
+   * En utfordring og hvordan du løste den
+   * Læringspunkter fra praksisen
+   * Avslutning og takk for oppmerksomheten
+3. Bruk bilder, kodeeksempler og animasjoner der det passer.
+4. Skriv alt i `src/App.jsx` eller `.tsx` som React‑komponenter.
+5. Gå gjennom og juster tema eller layout etter smak.
 
-Spectacle er et React-bibliotek for å lage elegante presentasjoner ved hjelp av kode. Her er en guide til hvordan du kommer i gang, fra oppsett til avanserte funksjoner.
+> Les gjennom hele denne README‑filen før du begynner.
 
+Spectacle er et React‑bibliotek for å lage elegante presentasjoner ved hjelp av kode. Under finner du en steg‑for‑steg‑guide som tar deg fra første oppsett og helt til avanserte funksjoner.
 ## 1. Oppsett og Installering
 
 Først må vi sette opp et nytt prosjekt. Vi bruker **Vite** for å få et raskt og moderne oppsett.
