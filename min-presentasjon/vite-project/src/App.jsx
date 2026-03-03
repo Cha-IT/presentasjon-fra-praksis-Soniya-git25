@@ -8,7 +8,7 @@ import {
   Image,
 } from 'spectacle';
 
-import mittBilde from './assets/bilder/Image (2).jpg';
+
 import bilde2 from './assets/bilder/Image (3).jpg';
 import bilde3 from './assets/bilder/Image 4.jpg';
 import bilde4 from './assets/bilder/0000.jpg';
@@ -24,6 +24,7 @@ import bilde13 from './assets/bilder/999.jpg';
 import bilde14 from './assets/bilder/1010.jpg';
 import bilde15 from './assets/bilder/1212.jpg';
 import bilde16 from './assets/bilder/1313.jpg';
+import takkformeg from './assets/bilder/takkformeg.jpg';
 
 const blackTheme = {
   colors: {
@@ -141,12 +142,12 @@ function App() {
         </FlexBox>
       </Slide>
 
-      {/* Slide 8: Tanking av PCene */}
+      {/* Slide 8: Takk for meg */}
       <Slide>
         <FlexBox height="100%" flexDirection="column" alignItems="center" justifyContent="center">
-          <Heading>Bilde av tanking av PC‑ene</Heading>
-          <Image src={mittBilde} width="50%" />
-          <Text>Her lastet vi inn operativsystem og nødvendig programvare.</Text>
+         
+          <Image src={takkformeg} width="50%" />
+         
         </FlexBox>
       </Slide>
     </Deck>
