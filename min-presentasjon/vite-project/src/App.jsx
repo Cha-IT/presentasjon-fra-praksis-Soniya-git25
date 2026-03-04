@@ -25,6 +25,9 @@ import bilde14 from './assets/bilder/1010.jpg';
 import bilde15 from './assets/bilder/1212.jpg';
 import bilde16 from './assets/bilder/1313.jpg';
 import takkformeg from './assets/bilder/takkformeg.jpg';
+import katt from './assets/bilder/katt.png';
+import imoji from './assets/bilder/imoji.png';
+
 
 const blackTheme = {
   colors: {
@@ -49,9 +52,10 @@ function App() {
         <FlexBox height="100%" flexDirection="column" alignItems="center" justifyContent="center">
           <Heading>Utplassering hos Horten kommune</Heading>
           <Text>Laget med Spectacle og React</Text>
+          <Image src={imoji} width="18%" />
         </FlexBox>
       </Slide>
-
+    
       {/* Slide 2: Om prosjektet */}
       <Slide>
         <FlexBox height="100%" flexDirection="column" alignItems="center" justifyContent="center">
@@ -67,8 +71,7 @@ function App() {
             <br />
             Fikk en ny PC med brukernavn og passord, tilgang til saksystem og Teams
             <br />
-            Jobbet sammen med Trond.
-          </Text>
+            Vikar kort</Text>
         </FlexBox>
       </Slide>
 
@@ -87,6 +90,7 @@ function App() {
             <br />
             Tanking av PC‑ene og sjekkliste før levering
           </Text>
+          <Image src={katt} width="25%" />
         </FlexBox>
       </Slide>
 
